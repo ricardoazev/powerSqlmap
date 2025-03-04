@@ -1,6 +1,7 @@
 # PoWerSqlmap
 
 O **PoWerSqlmap** é um script automatizado para identificar vulnerabilidades de SQL Injection (SQLi) em URLs de um domínio. Ele usa uma combinação de ferramentas como `waybackurls`, `httpx`, `sqlmap`, e padrões do GF (GfPatterns) para buscar, filtrar e testar automaticamente URLs vulneráveis a SQL Injection.
+![Inicio PoWerSqlmap]([https://github.com/usuario/repositorio/blob/main/logo.png](https://github.com/ricardoazev/powerSqlmap/blob/main/powerInicio.png))
 
 ## Funcionalidades
 
@@ -9,6 +10,9 @@ O **PoWerSqlmap** é um script automatizado para identificar vulnerabilidades de
 - **Verificação de URLs com `httpx`**: As URLs filtradas são verificadas com `httpx` para garantir que estejam ativas.
 - **Detecção de Parâmetros Suspeitos**: O script usa os padrões do GF (GfPatterns) para identificar URLs que podem estar vulneráveis a SQL Injection, procurando por parâmetros de consulta.
 - **Execução do SQLMap**: O script executa o `sqlmap` nas URLs identificadas como vulneráveis para realizar o teste de SQL Injection.
+![Dominio](https://github.com/ricardoazev/powerSqlmap/blob/main/powerinicio_est.png)
+![urls]([https://github.com/ricardoazev/powerSqlmap/blob/main/powerinicio_est.png](https://github.com/ricardoazev/powerSqlmap/blob/main/way.png))
+![SQL_encontrando DATABASE]([https://github.com/ricardoazev/powerSqlmap/blob/main/powerinicio_est.png](https://github.com/ricardoazev/powerSqlmap/blob/main/data_base.png))
 
 ## Pré-requisitos
 
